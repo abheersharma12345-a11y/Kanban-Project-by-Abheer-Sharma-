@@ -13,10 +13,13 @@ export default {
       },
     },
     extend: {
+<<<<<<< HEAD
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
         body: ["var(--font-body)", "sans-serif"],
       },
+=======
+>>>>>>> b331aa1 (template: new_style_vite_react_shadcn_ts_testing_2026-01-08)
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -51,6 +54,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+<<<<<<< HEAD
         column: {
           todo: "hsl(var(--column-todo))",
           progress: "hsl(var(--column-progress))",
@@ -61,6 +65,8 @@ export default {
           medium: "hsl(var(--priority-medium))",
           high: "hsl(var(--priority-high))",
         },
+=======
+>>>>>>> b331aa1 (template: new_style_vite_react_shadcn_ts_testing_2026-01-08)
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -79,6 +85,7 @@ export default {
       },
       keyframes: {
         "accordion-down": {
+<<<<<<< HEAD
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
@@ -89,12 +96,31 @@ export default {
         "fade-in": {
           from: { opacity: "0", transform: "translateY(8px)" },
           to: { opacity: "1", transform: "translateY(0)" },
+=======
+          from: {
+            height: "0",
+          },
+          to: {
+            height: "var(--radix-accordion-content-height)",
+          },
+        },
+        "accordion-up": {
+          from: {
+            height: "var(--radix-accordion-content-height)",
+          },
+          to: {
+            height: "0",
+          },
+>>>>>>> b331aa1 (template: new_style_vite_react_shadcn_ts_testing_2026-01-08)
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+<<<<<<< HEAD
         "fade-in": "fade-in 0.3s ease-out",
+=======
+>>>>>>> b331aa1 (template: new_style_vite_react_shadcn_ts_testing_2026-01-08)
       },
     },
   },

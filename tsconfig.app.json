@@ -16,7 +16,11 @@
     "jsx": "react-jsx",
 
     /* Linting */
+<<<<<<< HEAD
     "strict": true,
+=======
+    "strict": false,
+>>>>>>> b331aa1 (template: new_style_vite_react_shadcn_ts_testing_2026-01-08)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noImplicitAny": false,
